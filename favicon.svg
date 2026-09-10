@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.76 16.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Pristina-Regular, Pristina;
+        font-size: 11.34px;
+      }
+
+      .cls-2 {
+        fill: #630;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="7.88" cy="7.88" r="7.88"/>
+  <g>
+    <text class="cls-1" transform="translate(.57 9.88)"><tspan x="0" y="0">K</tspan></text>
+    <text class="cls-1" transform="translate(15.19 5.88) rotate(-180)"><tspan x="0" y="0">K</tspan></text>
+  </g>
+</svg>

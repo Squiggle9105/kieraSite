@@ -27,6 +27,14 @@ html {
     src: local(Pristina), url(PRISTINA.woff) format(woff);
     
 }
+@font-face 
+{
+    font-family: Candara;
+    font-style: normal;
+    font-weight: normal;
+    src: local(Candara Regular), url(Candara\ Regular.ttf) format(ttf);
+    
+}
 
 body
 {
@@ -74,23 +82,41 @@ nav
 }
 #sec1
 {
-    background-color:#ddd;
-    width:80vw;
+    background-color:#fff;
+    width:76vw;
     height:60vh;
     float:right;
+    overflow:auto;
+    padding: 1% 2% 1% 2%;
     margin-right:2.125vw;
     margin-left:2.125vw;
     border-radius:5px;
 }
-#sec2
+#sec1:hover
 {
     background-color:#ddd;
+}
+p
+{
+    margin-left: 31%;
+    font-family:Candara;
+}
+#sec2
+{
+    background-color:#fff;
     width:80vw;
     height:50vh;
     float:right;
     margin-right:2.125vw;
     margin-left:2.125vw;
     border-radius:5px;
+}
+#placeholder
+{
+    background-color:#fff;
+    height:98%;
+    width:30%;
+    float:left;
 }
 footer
 {
