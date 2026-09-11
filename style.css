@@ -68,6 +68,19 @@ header
     border-radius:5px;
     color:#fff;
 }
+#headerBar2
+{
+    width:80vw;
+    height:9vh;
+    background-color:#630;
+    float:right;
+    margin-right:2.125vw;
+    margin-left:2.125vw;
+    padding-top:1vh;
+    text-align:center;
+    border-radius:5px;
+    color:#fff;
+}
 nav
 {
     background-color:#630;
@@ -132,6 +145,18 @@ p
 {
     width:24%;
     margin-left:5%;
+}
+#bigCover1
+{
+    background-color:#fff;
+    height:98%;
+    float:left;
+}
+#bigCover2
+{
+    background-color:#fff;
+    height:98%;
+    float:left;
 }
 #placeholder
 {
