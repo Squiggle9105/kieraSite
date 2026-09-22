@@ -105,12 +105,17 @@ li img
 {
     height: 5vh;
 }
-a
+nav a
 {
     text-decoration:none;
     color:#fff;
     font-family:Pristina;
     font-size:2.5vw;
+}
+p a
+{
+    font-family:Candara;
+    color:#630;
 }
 #sec1
 {
@@ -118,7 +123,7 @@ a
     width:76vw;
     height:60vh;
     float:right;
-    overflow:auto;
+    overflow:hidden;
     padding: 1% 2% 1% 2%;
     margin-right:2.125vw;
     margin-left:2.125vw;
@@ -143,7 +148,7 @@ a
 {
     background-color:#fff;
     width:74vw;
-    height:58vh;
+    height:52vh;
     float:right;
     margin-right:2.125vw;
     margin-left:2.125vw;
@@ -166,25 +171,41 @@ a
 #bigCover1
 {
     background-color:#fff;
-    height:98%;
+    width:23%;
     float:right;
+    border: solid, 0.75vh, #963;
+    border-radius:0.75vh;
+    margin-left:0.5vw;
 }
 #bigCover2
 {
     background-color:#fff;
-    height:98%;
+    width:20%;
     float:left;
+    border: solid, 0.75vh, #963;
+    border-radius:0.75vh;
+    margin-right:0.5vw;
+    margin-left:0;
 }
-#assassin2
+#sec2 > p
 {
-    height:60%;
-    margin-top:13.75%;
+    font-family:Candara;
+    font-size:1.2vw;
+    float:left;
+    margin:0;
+    max-width:50%;
+    max-height:80%;
+    margin-top:2%;
 }
 #sec3 > p
 {
     font-family:Candara;
     font-size:1.2vw;
     float:right;
+    margin:0;
+    max-width:55%;
+    max-height:80%;
+    margin-top:2%;
 }
 #placeholder
 {
@@ -197,21 +218,52 @@ a
 }
 #placeholder2
 {
-    margin-top:9.8%;
     background-color:#fff;
-    height:70%;
-    width:18%;
-    float:left;
+    height:97%;
+    width:28%;
+    float:right;
     border: solid, 1vh, #963;
     border-radius:1vh;
 }
+form
+{
+    width:50%;
+}
+div#form
+{
+    width:50%;
+    float:left;
+}
+label
+{
+    font-family: Candara;
+    color:#630;
+}
+button
+{
+    background-color:#630;
+    font-family: Candara;
+    color:#fff;
+    height:5vh;
+    width:5vw;
+    border-radius:0.5vw;
+    font-size:2.5vh;
+}
 footer
 {
-    color:#fff;
+    background-color:#630;
+    height:7vh;
+    width:80vw;
+    float:right;
+    margin-right:2.125vw;
+    margin-left:2.125vw;
+    border-radius:1vw;
+    margin-bottom:0.5vh;
+
 }
 .pristinaHdr
 {
-    font-family: Pristina, Papyrus;
+    font-family: Pristina;
     text-align:center;
     font-size:4vw;      
     font-weight:normal;                      
