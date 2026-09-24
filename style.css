@@ -24,7 +24,7 @@ html {
     font-family: Pristina;
     font-style: normal;
     font-weight: normal;
-    src: local(Pristina), url(PRISTINA.ttf) format(ttf);
+    src: local('Pristina'), url('PRISTINA.woff') format('woff');
     
 }
 @font-face 
