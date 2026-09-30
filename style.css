@@ -112,6 +112,10 @@ nav a
     font-family:Pristina;
     font-size:2.5vw;
 }
+p
+{
+    font-family:Candara;
+}
 p a
 {
     font-family:Candara;
@@ -221,18 +225,42 @@ p a
     width:100%;
     max-height:100%;
 }
+#portrait
+{
+    background-color:#222;
+    height:98%;
+    width:fit-content;
+    float:left;
+    border: solid, 1vh, #963;
+    border-radius:1vh;
+}
 #portrait > img
 {
-    width:10%;
+    height:100%;
 }
-#placeholder2
+#instagram
 {
     background-color:#fff;
-    height:97%;
-    width:28%;
+    height:100%;
+    width:fit-content;
     float:right;
     border: solid, 1vh, #963;
     border-radius:1vh;
+}
+#instagram > img
+{
+    height:100%;
+}
+#contact
+{
+    background-color:#fff;
+    width:76vw;
+    height:66vh;
+    float:right;
+    overflow:hidden;
+    padding: 1% 2% 1% 2%;
+    margin-right:2.125vw;
+    margin-left:2.125vw;
 }
 form
 {
@@ -258,7 +286,7 @@ button
     border-radius:0.5vw;
     font-size:2.5vh;
 }
-footer
+/* footer
 {
     background-color:#630;
     height:7vh;
@@ -269,7 +297,7 @@ footer
     border-radius:1vw;
     margin-bottom:0.5vh;
 
-}
+} */
 .pristinaHdr
 {
     font-family: Pristina;
